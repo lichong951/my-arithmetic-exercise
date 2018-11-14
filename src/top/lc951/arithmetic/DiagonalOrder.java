@@ -109,7 +109,7 @@ public class DiagonalOrder {
 	 * 那么col重置为n-1，并且row自增2，然后改变遍历的方向。同理如果row超过了m-1的范围，那么row重置为m-1，
 	 * 并且col自增2，然后改变遍历的方向。然后我们再来判断一般的越界情况，如果row小于0，那么row重置0，
 	 * 然后改变遍历的方向。同理如果col小于0，那么col重置0，然后改变遍历的方向
-	 * 
+	 * http://www.cnblogs.com/grandyang/p/6414461.html
 	 * */
 	public static int[] arithmetic1(int[][] matrix) {
 		if(0==matrix.length||0==matrix[0].length)
